@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="ImageCropView">
+        <!-- 选框距离屏幕左右两边留多少空隙 值为屏幕宽的比例 -->
+        <attr name="paddingWidthRatio" format="float" />
+        <!-- 选框距离屏幕上下两边留多少空隙 值为屏幕高的比例 -->
+        <attr name="paddingHeightRatio" format="float" />
+        <!-- 选框边的粗细 -->
+        <attr name="borderThickness" format="dimension" />
+        <!-- 选框边的可触摸范围 -->
+        <attr name="borderTouchExtention" format="dimension" />
+        <!-- 选框角的粗细 -->
+        <attr name="cornerThickness" format="dimension" />
+        <!-- 选框角的触摸范围 -->
+        <attr name="cornerTouchExtention" format="dimension" />
+        <!-- 选框角的长度 -->
+        <attr name="cornerSize" format="dimension" />
+        <!-- 相对图片原始大小，放大的最大比例 -->
+        <attr name="imageMaxScale" format="float" />
+        <!-- 选框最小宽度（除去角的长度） -->
+        <attr name="cropWidthMin" format="dimension" />
+        <!-- 选框最小高度（除去角的长度） -->
+        <attr name="cropHeightMin" format="dimension" />
+        <!-- 选框到达屏幕的多大时进行缩小 -->
+        <attr name="scaleChangeMax" format="float" />
+        <!-- 选框到达屏幕的多大时进行放大 -->
+        <attr name="scaleChangeMin" format="float" />
+        <!-- 选框边的颜色 -->
+        <attr name="borderColor" format="color|reference" />
+        <!-- 选框边的颜色 - 高亮 -->
+        <attr name="borderColorHighLight" format="color|reference" />
+        <!-- 选框角的颜色 -->
+        <attr name="cornerColor" format="color|reference" />
+        <!-- 选框角的颜色 - 高亮 -->
+        <attr name="cornerColorHighLight" format="color|reference" />
+        <!-- 遮罩颜色 -->
+        <attr name="overlayColor" format="color|reference" />
+        <!-- 网格线颜色 -->
+        <attr name="gridLineColor" format="color|reference" />
+        <!-- 网格线粗细 -->
+        <attr name="gridThickness" format="dimension" />
+        <!-- 网格行数 -->
+        <attr name="gridLineRowCol" format="string" />
+        <!-- 纵横比 -->
+        <attr name="aspectRatio" format="float" />
+        <!-- 是否保持纵横比 -->
+        <attr name="keepAspectRatio" format="boolean" />
+    </declare-styleable>
+</resources>
