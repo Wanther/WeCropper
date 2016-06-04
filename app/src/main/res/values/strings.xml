@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">WeCropper</string>
+
+    <string name="crop">裁剪</string>
+    <string name="rotate_left">左转</string>
+    <string name="rotate_right">右转</string>
+    <string name="no_cropped_image">裁剪失败</string>
+
+</resources>

@@ -1,0 +1,9 @@
+.gradle
+/.idea/workspace.xml
+/.idea/libraries
+.DS_Store
+/build
+/captures
+/WeCropper.iml
+/.idea
+/libwecropper/libwecropper.iml
